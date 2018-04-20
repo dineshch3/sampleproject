@@ -15,30 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
- <distributionManagement>
-   <snapshotRepository>
-      <id>test-snapshot</id>
-      <url>http://35.185.9.234/repository/test-snapshot/</url>
-   </snapshotRepository>
-   <repository>
-    <id>test-release</id>
-    <url>http://35.185.9.234/repository/test-release/</url>
-   </repository>
+<repositories>
+        <repository>
+          <id>test-group</id>
+          <url>http://35.185.9.234/repository/test-group/</url>
+        </repository>
+   </repositories>
+   <distributionManagement>
+        <snapshotRepository>
+            <id>test-snapshot</id>
+            <url>http://35.185.9.234/repository/test-snapshot/</url>
+        </snapshotRepository>
+        <repository>
+            <id>test-release</id>
+            <url>http://35.185.9.234/repository/test-release/</url>
+        </repository>
   </distributionManagement>
-#<repositories>
-#        <repository>
-#          <id>sonargroup</id>
-#          <url>http://104.198.142.42:8081/nexus/content/groups/public/</url>
-#        </repository>
-#   </repositories>
-#   <distributionManagement>
-#        <snapshotRepository>
-#            <id>sonarsnap</id>
-#            <url>http://104.198.142.42:8081/nexus/content/repositories/sonarsnap/</url>
-#        </snapshotRepository>
-#        <repository>
-#            <id>sonarrelease</id>
-#            <url>http://104.198.142.42:8081/nexus/content/repositories/sonarrelease/</url>
-#        </repository>
-#    </distributionManagement>
 </project>
