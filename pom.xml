@@ -15,12 +15,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-<repositories>
-        <repository>
-          <id>test-group</id>
-          <url>http://35.185.9.234/repository/test-group/</url>
-        </repository>
-   </repositories>
    <distributionManagement>
         <snapshotRepository>
             <id>test-snapshot</id>
