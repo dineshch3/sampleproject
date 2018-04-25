@@ -19,12 +19,12 @@
    <snapshotRepository>
       <id>nexus</id>
      <name>test-snapshot</name>
-      <url>http://35.185.9.234:8081/repository/test-snapshot/</url>
+      <url>http://35.185.9.234/repository/test-snapshot/</url>
    </snapshotRepository>
    <repository>
     <id>nexus</id>
     <name>test-release</name>
-    <url>http://35.185.9.234:8081/repository/test-release/</url>
+    <url>http://35.185.9.234/repository/test-release/</url>
    </repository>
   </distributionManagement>
 </project>
